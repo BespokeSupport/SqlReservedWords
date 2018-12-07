@@ -1,0 +1,11 @@
+<phpunit colors="true" strict="true" bootstrap="vendor/autoload.php">
+    <testsuites><testsuite name=""><directory>tests</directory></testsuite></testsuites>
+    <logging><log type="coverage-html" target="tmp/"/></logging>
+    <filter>
+        <whitelist><directory>lib</directory>
+            <exclude>
+                <file>lib/CheckCommand.php</file>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>

@@ -1,0 +1,19 @@
+{
+  "name": "bespoke-support/sql-reserved",
+  "description": "Checks Classes in Directory for Database reserved words",
+  "license": "MIT",
+  "require": {
+    "doctrine/dbal": "^2",
+    "symfony/console": "^3|^4"
+  },
+  "autoload": {
+    "psr-4": {
+      "BespokeSupport\\SqlReserved\\":"lib"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Example\\": "example"
+    }
+  }
+}
